@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+.footerStyle{
+    background-color:#333;
+    height:40px;
+    text-align: center;
+    vertical-align: middle;
+    color:#9d9d9d;
+}
+
+.box{
+    background-color:whitesmoke;
+    
+    text-align: center;
+    vertical-align: middle;
+    color:#333;
+    border: 1px dashed #222;
+}

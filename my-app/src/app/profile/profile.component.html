@@ -1,0 +1,33 @@
+<div class="row">
+<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8" style="margin-left:10%">
+
+<button class="snip1582" (mouseenter)="openSSLC()" (mouseleave)="mouseOut()">SSLC</button>
+<button class="snip1582" (mouseenter)="openHS()" (mouseleave)="mouseOut()">Higher Secondary</button>
+<button class="snip1582" (mouseenter)="openDegree()" (mouseleave)="mouseOut()">Degree</button>
+</div>
+<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+</div>
+</div>
+
+<div id="education" class="row" style="height:100px">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="height:auto">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"></div>
+          <div *ngIf="isSSLCtab==true" class="col-lg-6 col-md-6 col-sm-6 col-xs-6 box" style="text-align:center">
+            <h5> RC High School </h5>
+            <h6> T.N Puthuudi, Puliangudi</h6>
+          </div>
+          <div *ngIf="isHStab==true" class="col-lg-6 col-md-6 col-sm-6 col-xs-6 box" style="text-align:center">
+            <h5> HNUC Higher Secondary School </h5>
+            <h6> T.N Puthuudi, Puliangudi</h6>
+          </div>
+          <div *ngIf="isDegreeTab==true" class="col-lg-6 col-md-6 col-sm-6 col-xs-6 box" style="text-align:center">
+              <h5> B.E - Electronics and Communication Engineering </h5>
+              <h5> National Engineering College </h5>
+              <h6> k.R Nagar, kovilpatti</h6>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            </div>
+    </div>
+</div>
